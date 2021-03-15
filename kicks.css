@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body{
+    font-family:'Redressed', cursive;
+    margin: 0;
+    background-image: url(Images/josh-redd-Q9S0w7Bhx3A-unsplash.jpg);
+    background-size: cover;
+}
+
+header{
+    color: red;
+    font-size: 8em;
+    margin-top: 0.2em;
+    margin-left: 2em;
+
+}
+
+.nav-container{
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+}
+
+img{
+    width: 155px;
+    margin-top: 25em;
+}
+
+.form-container{
+    background-color: white;
+    margin: 2em -2em 0;
+    padding: 2em;
+    width: 50%;
+
+}
+
+label{
+    color: yellowgreen;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+input[type=text]{
+    border: 1px solid blue;
+    width: 40%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: .5em;
+    margin-top: 1.2em;
+}
+
+input[type=button]{
+    background-color: yellow;
+    border: none;
+    width: 40%;
+    color: fuchsia;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: 1.3em;
+    cursor: pointer;
+    display: flex;
+
+}
+
+
+
+
+
