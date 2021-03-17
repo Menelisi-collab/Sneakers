@@ -28,13 +28,26 @@ a{
 .pics-container{
     display: flex;
     margin: auto;
+    
 }
 
 
 .pics-container img{
     width: 100%;
     margin-top: 5em;
+    
+}    
+
+.pics-container img:hover{
+    background-size: 150%;
+    background-position: center;
+    transition: 1s;
+    cursor: pointer;
+    cursor: zoom-in;
+    display: flex;
 }
+
+
 
 .form-container{
     background-color: white;
@@ -81,10 +94,6 @@ input[type=button]{
 input[type=button]:hover{
     background-color: burlywood;
 }
-
-
-
-
 
 
 
