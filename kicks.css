@@ -25,18 +25,25 @@ a{
     color: white;
 }
 
-img{
-    width: 155px;
-    margin-top: 25em;
+.pics-container{
+    display: flex;
+    margin: auto;
+}
+
+
+.pics-container img{
+    width: 100%;
+    margin-top: 5em;
 }
 
 .form-container{
     background-color: white;
-    margin: 2em -2em 0;
+    margin: auto;
     padding: 2em;
     width: 50%;
-
+    
 }
+
 
 label{
     color: yellowgreen;
@@ -52,11 +59,11 @@ input[type=text]{
     padding: 1em;
     box-sizing: border-box;
     border-radius: .5em;
-    margin-top: 1.2em;
+    margin-top: 1.1em;
 }
 
 input[type=button]{
-    background-color: yellow;
+    background-color: orange;
     border: none;
     width: 40%;
     color: fuchsia;
@@ -66,8 +73,16 @@ input[type=button]{
     font-size: 1.3em;
     cursor: pointer;
     display: flex;
+    margin-top: 0.8em;
+    text-decoration-style: dotted;
 
 }
+
+input[type=button]:hover{
+    background-color: burlywood;
+}
+
+
 
 
 
